@@ -12,5 +12,9 @@ import javax.persistence.Entity;
 public class Invite {
 	@Id @GeneratedValue
 	private Long id;
-	private @NonNull String name;
+//	private @NonNull String name;
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
 }
